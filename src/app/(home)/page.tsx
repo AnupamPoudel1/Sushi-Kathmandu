@@ -31,7 +31,7 @@ export default function Home() {
   ]
 
   return (
-    <main className="overflow-x-hidden h-[95vh] w-full">
+    <main className="overflow-x-hidden h-[95vh] w-full no-scrollbar">
       <div className="h-[95vh] w-full relative">
         <Image
           src={bgImage}
@@ -156,7 +156,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className='w-[60%] h-full flex flex-col justify-center items-center border border-secondary p-6 gap-14'>
+        <div className='w-[60%] h-full flex flex-col justify-center items-center p-6 gap-14'>
           <h1 className='text-6xl font-extrabold text-secondary'>
             Sushi <br /> Kathmandu
           </h1>

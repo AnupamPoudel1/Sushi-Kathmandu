@@ -43,7 +43,7 @@ export default function Navbar() {
 
 
     return (
-        <header className="z-50 top-10 sticky w-full">
+        <header className="z-50 top-8 sticky w-full">
             <div className="flex justify-between items-center p-4 relative lg:px-12 xl:px-28 bg-primary overflow-x-clip">
                 <div className="logo flex justify-center items-center">
                     <h1 className="font-medium text-3xl">Sushi Kathmandu</h1>

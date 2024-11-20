@@ -7,29 +7,6 @@ import Link from 'next/link';
 
 export default function Home() {
 
-  const navLinks = [
-    {
-      title: 'Home',
-      link: '/'
-    },
-    {
-      title: 'About',
-      link: '/about'
-    },
-    {
-      title: 'Menu',
-      link: '/menu'
-    },
-    {
-      title: 'Blog',
-      link: '/blog'
-    },
-    {
-      title: 'Contact',
-      link: '/contact'
-    },
-  ]
-
   return (
     <main className="overflow-x-hidden h-[95vh] w-full no-scrollbar">
       <div className="h-[95vh] w-full relative">

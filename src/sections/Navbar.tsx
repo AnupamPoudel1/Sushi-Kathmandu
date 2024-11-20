@@ -2,10 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
 import { FaSearch } from "react-icons/fa";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { RxCross1 } from "react-icons/rx";
 import { twMerge } from "tailwind-merge";
 
 export default function Navbar() {
@@ -34,13 +31,6 @@ export default function Navbar() {
     ]
 
     const pathname = usePathname();
-
-    const [showNav, setShowNav] = useState<boolean>(false);
-
-    const toggleNav = () => {
-        setShowNav(!showNav);
-    }
-
 
     return (
         <header className="z-50 top-8 sticky w-full">

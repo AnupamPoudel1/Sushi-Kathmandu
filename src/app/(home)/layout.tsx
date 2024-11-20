@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Roboto_Slab, Lora } from 'next/font/google';
 import "../globals.css";
 import { twMerge } from "tailwind-merge";
+import Navbar from "@/sections/Navbar";
 
 const lora = Lora({ subsets: ['latin'], variable: "--font-sans" });
 const roboto = Roboto_Slab({ subsets: ['latin'], variable: "--font-serif" });
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={twMerge(lora.variable, roboto.variable, "antialiased font-sans")}>
+        <Navbar />
         {children}
       </body>
     </html>

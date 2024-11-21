@@ -9,10 +9,10 @@ const roboto = Roboto_Slab({ subsets: ['latin'], variable: "--font-serif" });
 
 export const metadata: Metadata = {
   title: {
-    default: "Sushui Kathmandu",
-    template: "%s | Sushi Kathmandu",
+    default: "Bukta Sushi",
+    template: "%s | Bukta Sushi",
   },
-  description: "Find best sushi in town",
+  description: "Welcome to Bukta Sushi, Tromsø's premier destination for authentic Japanese cuisine, nestled in the stunning landscapes of northern Norway. Located in the heart of Tromsø, we bring the art of sushi-making to this Arctic paradise, blending traditional Japanese techniques with the freshest ingredients sourced locally and globally."
 };
 
 export default function RootLayout({

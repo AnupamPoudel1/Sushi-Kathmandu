@@ -8,7 +8,7 @@ import Link from 'next/link';
 export default function Home() {
 
   return (
-    <main className="overflow-x-hidden h-[95vh] w-full no-scrollbar">
+    <main className="overflow-x-hidden w-full no-scrollbar">
       <div className="h-[95vh] w-full relative">
         <Image
           src={bgImage}

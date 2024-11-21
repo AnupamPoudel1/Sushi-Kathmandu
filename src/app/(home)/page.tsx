@@ -23,12 +23,12 @@ export default function Home() {
             司
           </p>
         </div>
-        <div className="absolute top-20 left-1/2 -translate-x-1/2 flex flex-col py-14 px-8 gap-6">
+        <div className="absolute top-28 left-1/2 -translate-x-1/2 flex flex-col py-14 px-8 gap-6">
           <p className='uppercase font-serif font-extrabold text-2xl text-primary bg-secondary w-max p-2'>
             Welcome To
           </p>
           <p className='font-serif font-extrabold text-8xl text-primary'>
-            Sushi <br /> Kathmandu
+            Bukta Sushi
           </p>
           <Link
             href={'/menu'}
@@ -135,7 +135,7 @@ export default function Home() {
         </div>
         <div className='w-[60%] h-full flex flex-col justify-center items-center p-6 gap-14'>
           <h1 className='text-6xl font-extrabold text-secondary'>
-            Sushi <br /> Kathmandu
+            Bukta Sushi
           </h1>
           <div className="flex flex-col gap-3 justify-center items-center">
             <p className='text-base font-medium text-tertiary'>
@@ -153,10 +153,7 @@ export default function Home() {
               Call
             </p>
             <p className='text-xl font-semibold text-secondary'>
-              (+977) 9841******
-            </p>
-            <p className='text-xl font-semibold text-secondary'>
-              (+977) 9818******
+              (+47) 46744000
             </p>
           </div>
           <div className="flex flex-col gap-3 justify-center items-center">
@@ -164,7 +161,7 @@ export default function Home() {
               Address
             </p>
             <p className='text-xl font-semibold text-secondary'>
-              Kathmandu, Nepal
+              Strandvegen 134, 9006 Tromsø
             </p>
           </div>
         </div>

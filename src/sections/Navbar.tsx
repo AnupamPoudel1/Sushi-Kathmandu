@@ -21,10 +21,6 @@ export default function Navbar() {
             link: '/menu'
         },
         {
-            title: 'Blog',
-            link: '/blog'
-        },
-        {
             title: 'Contact',
             link: '/contact'
         },
@@ -36,7 +32,7 @@ export default function Navbar() {
         <header className="z-50 top-8 sticky w-full">
             <div className="flex justify-between items-center p-4 relative lg:px-12 xl:px-28 bg-primary overflow-x-clip">
                 <div className="logo flex justify-center items-center">
-                    <h1 className="font-medium text-3xl">Sushi Kathmandu</h1>
+                    <h1 className="font-medium text-3xl">Bukta Sushi</h1>
                 </div>
                 <nav className="flex justify-center items-center gap-4 text-tertiary">
                     {

@@ -113,7 +113,6 @@ export default function Home() {
           </Link>
         </div>
       </div>
-
       <div className="h-[95vh] w-full relative flex">
         <div className="image flex justify-center items-center w-[40%] h-full relative">
           <Image

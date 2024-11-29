@@ -17,9 +17,9 @@ export default function Contact() {
                     <h1 className='text-6xl font-bold text-primary'>
                         Call To <br /> Reserve
                     </h1>
-                    <button className='py-3 px-6 border-2 border-primary text-xl font-medium text-primary w-max hover:bg-primary hover:text-secondary transition duration-300'>
+                    <a href="tel:46744000" className='py-3 px-6 border-2 border-primary text-xl font-medium text-primary w-max hover:bg-primary hover:text-secondary transition duration-300'>
                         Book Now
-                    </button>
+                    </a>
                 </div>
             </div>
             <div className='w-full md:w-[60%] h-full flex flex-col justify-center items-center p-6 gap-14'>

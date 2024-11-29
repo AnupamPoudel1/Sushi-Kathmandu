@@ -15,15 +15,19 @@ import Image from 'next/image';
 
 const deliveryTakeout = [
     {
+        image: sushiImage,
         dishName: 'Sashimi'
     },
     {
+        image: sushiImage,
         dishName: 'Noodles'
     },
     {
+        image: hotSpice,
         dishName: 'Sushi Rolls'
     },
     {
+        image: shrimpNigi,
         dishName: 'Nigiri'
     },
 ]
@@ -34,19 +38,19 @@ const popularDishes = [
         dishName: 'Temaki'
     },
     {
-        image: sushiImage,
+        image: shrimpNigi,
         dishName: 'Nigiri'
     },
     {
-        image: sushiImage,
+        image: rockstarRoll,
         dishName: 'Sushi Rolls'
     },
     {
-        image: sushiImage,
+        image: cherryBlossom,
         dishName: 'Chef Special'
     },
     {
-        image: sushiImage,
+        image: auroraMaki,
         dishName: 'Speciality Rolls'
     },
     {
@@ -250,16 +254,16 @@ export default function Menu() {
                         Food Menu
                     </h1>
                     <div className="flex flex-col gap-6 text-secondary h-max">
-                        <p className='text-xl md:text-3xl lg:text-4xl font-bold font-serif hover:text-primary cursor-pointer transition duration-300'>
+                        <p className='text-xl md:text-3xl lg:text-4xl font-bold font-serif hover:text-primary cursor-default transition duration-300'>
                             Appetizers
                         </p>
-                        <p className='text-xl md:text-3xl lg:text-4xl font-bold font-serif hover:text-primary cursor-pointer transition duration-300'>
+                        <p className='text-xl md:text-3xl lg:text-4xl font-bold font-serif hover:text-primary cursor-default transition duration-300'>
                             Entrees
                         </p>
-                        <p className='text-xl md:text-3xl lg:text-4xl font-bold font-serif hover:text-primary cursor-pointer transition duration-300'>
+                        <p className='text-xl md:text-3xl lg:text-4xl font-bold font-serif hover:text-primary cursor-default transition duration-300'>
                             Extras
                         </p>
-                        <p className='text-xl md:text-3xl lg:text-4xl font-bold font-serif hover:text-primary cursor-pointer transition duration-300'>
+                        <p className='text-xl md:text-3xl lg:text-4xl font-bold font-serif hover:text-primary cursor-default transition duration-300'>
                             Desserts
                         </p>
                     </div>
@@ -272,9 +276,9 @@ export default function Menu() {
                         <p className='text-primary'>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut ad nihil pariatur neque beatae aspernatur illo amet voluptas id sequi.
                         </p>
-                        <button className='border border-secondary px-4 py-6 w-max text-secondary hover:bg-primary hover:border-primary hover:text-tertiary transition duration-300 font-medium'>
+                        <a href='#fullmenu' className='border border-secondary px-4 py-6 w-max text-secondary hover:bg-primary hover:border-primary hover:text-tertiary transition duration-300 font-medium'>
                             Full Menu
-                        </button>
+                        </a>
                     </div>
                     <div className="flex justify-center items-center w-full lg:w-1/2 h-full py-14 px-5 lg:p-28">
                         <div className="size-full grid grid-cols-2 gap-6">
@@ -286,7 +290,7 @@ export default function Menu() {
                                             className="flex flex-col items-center gap-3 col-span-1"
                                         >
                                             <div className='flex bg-quinary w-32 h-32 md:w-52 md:h-52 lg:w-[80%] lg:h-[80%]'>
-
+                                                <Image src={delivery.image} alt={delivery.dishName} className='size-full object-cover' />
                                             </div>
                                             <p className='font-bold font-serif text-xl'>
                                                 {delivery.dishName}
@@ -329,7 +333,7 @@ export default function Menu() {
                     </div>
                 </div>
             </div>
-            <div className="w-full relative flex justify-center items-center flex-col bg-gray-100">
+            <div id='fullmenu' className="w-full relative flex justify-center items-center flex-col bg-gray-100">
                 <div className="flex flex-col items-center px-12 lg:px-28 py-16 w-full h-full gap-12">
                     <h1 className='font-semibold text-6xl w-max text-tertiary'>
                         Full Menu

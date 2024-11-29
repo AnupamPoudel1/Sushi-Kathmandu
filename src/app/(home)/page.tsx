@@ -59,7 +59,7 @@ export default function Home() {
             Traditional <br /> Taste
           </h1>
           <p className='text-base font-normal text-text w-3/4'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis dicta ratione unde est, natus commodi possimus enim ipsum quisquam totam.
+            Experience the artistry of authentic sushi crafted with the finest ingredients. From the delicate balance of flavors to the perfect texture, our menu celebrates the heritage of Japanese cuisine.
           </p>
           <Link
             href={'/menu'}

@@ -274,7 +274,7 @@ export default function Menu() {
                             Delivery & <br /> Takeout
                         </h1>
                         <p className='text-primary'>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut ad nihil pariatur neque beatae aspernatur illo amet voluptas id sequi.
+                            Enjoy the authentic flavors of our sushi in the comfort of your home. Whether you're craving fresh sashimi, savory noodles, or delectable rolls, our menu has something for everyone. Order now and indulge in a taste of Japan.
                         </p>
                         <a href='#fullmenu' className='border border-secondary px-4 py-6 w-max text-secondary hover:bg-primary hover:border-primary hover:text-tertiary transition duration-300 font-medium'>
                             Full Menu

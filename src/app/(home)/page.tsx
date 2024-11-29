@@ -1,7 +1,6 @@
 import bgImage from '@/assets/bgImage.jpg';
 import secondBgImg from '@/assets/secondBgImg.jpg';
 import sushiImage from '@/assets/sushiImage.jpg';
-import anotherSushi from '@/assets/anotherSushi.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
 import Contact from '@/sections/Contact';

@@ -1,4 +1,3 @@
-import anotherSushi from '@/assets/anotherSushi.jpg';
 import sushiImage from '@/assets/sushiImage.jpg';
 import sushiPlate from '@/assets/sushiPlate.png';
 import Contact from '@/sections/Contact';

@@ -4,6 +4,7 @@ import sushiImage from '@/assets/sushiImage.jpg';
 import anotherSushi from '@/assets/anotherSushi.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
+import Contact from '@/sections/Contact';
 
 export default function Home() {
 
@@ -46,7 +47,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-center items-center py-12 px-32 gap-32 bg-gray-100">
+      <div className="w-full flex flex-col lg:flex-row justify-center items-center py-6 px-4 lg:py-12 md:px-20 lg:px-32 gap-10 lg:gap-32 bg-gray-100">
         <div className="flex justify-center items-center w-96">
           <Image
             src={sushiImage}
@@ -54,7 +55,7 @@ export default function Home() {
             className='size-full object-cover'
           />
         </div>
-        <div className="flex flex-col gap-4 w-[60%]">
+        <div className="flex flex-col gap-4 w-full">
           <h1 className='text-5xl font-semibold font-serif text-tertiary'>
             Traditional <br /> Taste
           </h1>
@@ -75,8 +76,8 @@ export default function Home() {
           alt='background image'
           className='w-full h-full object-cover'
         />
-        <div className="absolute border-8 border-primary top-52 left-10 flex flex-col py-14 px-8 text-primary backdrop-blur gap-4">
-          <div className='flex gap-6 font-bold text-9xl'>
+        <div className="absolute border-8 border-primary top-10 left-5 lg:top-52 lg:left-10 flex flex-row px-12 py-8  lg:py-14 lg:px-8 text-primary backdrop-blur gap-4">
+          <div className='flex lg:flex-row justify-center items-center gap-4 lg:gap-6 font-bold text-5xl md:text-9xl w-max'>
             <p>
               F
             </p>
@@ -93,12 +94,9 @@ export default function Home() {
               H
             </p>
           </div>
-          <div className="text-primary text-base font-semibold">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda.
-          </div>
         </div>
 
-        <div className="absolute border-2 border-primary top-40 right-32 flex flex-col py-14 px-8 text-primary  gap-4">
+        <div className="absolute border-2 border-primary top-1/2 right-10 md:top-[65%] backdrop-blur lg:top-40 lg:right-32 flex flex-col py-14 px-8 text-primary  gap-4">
           <Link href={'/menu'}>
             M
           </Link>
@@ -113,58 +111,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="h-[95vh] w-full relative flex">
-        <div className="image flex justify-center items-center w-[40%] h-full relative">
-          <Image
-            src={anotherSushi}
-            alt='contact image'
-            className='w-full h-full object-cover'
-          />
-          <div className="absolute uppercase flex flex-col gap-6 p-4 backdrop-blur rounded-xl">
-            <p className='font-semibold font-serif text-2xl text-primary'>
-              Dine In
-            </p>
-            <h1 className='text-6xl font-bold text-primary'>
-              Call To <br /> Reserve
-            </h1>
-            <button className='py-3 px-6 border-2 border-primary text-xl font-medium text-primary w-max hover:bg-primary hover:text-secondary transition duration-300'>
-              Book Now
-            </button>
-          </div>
-        </div>
-        <div className='w-[60%] h-full flex flex-col justify-center items-center p-6 gap-14'>
-          <h1 className='text-6xl font-extrabold text-secondary'>
-            Bukta Sushi
-          </h1>
-          <div className="flex flex-col gap-3 justify-center items-center">
-            <p className='text-base font-medium text-tertiary'>
-              Open Hours
-            </p>
-            <p className='text-xl font-semibold text-secondary'>
-              Monday - Friday : 11am - 11pm
-            </p>
-            <p className='text-xl font-semibold text-secondary'>
-              Saturday - Sunday : 11am - 9pm
-            </p>
-          </div>
-          <div className="flex flex-col gap-3 justify-center items-center">
-            <p className='text-base font-medium text-tertiary'>
-              Call
-            </p>
-            <p className='text-xl font-semibold text-secondary'>
-              (+47) 46744000
-            </p>
-          </div>
-          <div className="flex flex-col gap-3 justify-center items-center">
-            <p className='text-base font-medium text-tertiary'>
-              Address
-            </p>
-            <p className='text-xl font-semibold text-secondary'>
-              Strandvegen 134, 9006 Tromsø
-            </p>
-          </div>
-        </div>
-      </div>
+      <Contact />
     </main>
   );
 }

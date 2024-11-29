@@ -1,5 +1,15 @@
 import sushiImage from '@/assets/sushiImage.jpg';
 import sushiPlate from '@/assets/sushiPlate.png';
+import hotSpice from '@/assets/hotSpice.jpg';
+import smokedSalmon from '@/assets/smokedSalmon.jpg';
+import rockstarRoll from '@/assets/rockstarRoll.jpg';
+import cherryBlossom from '@/assets/cherryBlossom.jpg';
+import rainbowMaki from '@/assets/rainbowMaki.jpg';
+import strawberryMaki from '@/assets/strawberryMaki.jpg';
+import tempuraMaki from '@/assets/tempuraMaki.jpg';
+import auroraMaki from '@/assets/auroraMaki.jpg';
+import shrimpNigi from '@/assets/shrimp.jpg';
+import salmonNigi from '@/assets/salmon.jpg';
 import Contact from '@/sections/Contact';
 import Image from 'next/image';
 
@@ -47,150 +57,175 @@ const popularDishes = [
 
 const fullMenu = [
     {
+        image: sushiImage,
         dishName: 'Wakame',
         description: 'Fresh seaweed salad with a touch of sesame, light and refreshing.',
         category: 'Appetizers',
         price: '69 NOK'
     },
     {
+        image: sushiImage,
         dishName: 'Spring Roll(3pcs)',
         description: 'Crispy vegetable or chicken rolls served with a sweet chili sauce.',
         category: 'Appetizers',
         price: '99 NOK'
     },
     {
+        image: sushiImage,
         dishName: 'Gyoza(4pcs)',
         description: 'Chicken dumplings served with chef special sauce.',
         category: 'Appetizers',
         price: '99 NOK'
     },
     {
+        image: sushiImage,
         dishName: 'Nobashi(4pcs)',
         description: 'Crispy shrimp tempura with ponzu sauce, perfect for a crunchy start.',
         category: 'Appetizers',
         price: '99 NOK'
     },
     {
+        image: hotSpice,
         dishName: 'Hot Spice Salmon Roll(8pcs)',
         description: 'Crispy fried salmon and Philadelphia maki, topped with spicy salmon, teriyaki, spring onion, and sesame seeds.',
         category: 'Fried Sushi Rolls',
         price: '169 NOK'
     },
     {
+        image: cherryBlossom,
         dishName: 'Cherry Blossom Roll(8pcs)',
         description: 'Maki roll with fresh salmon, avocado, and Philadelphia cheese, topped with chili mayo, teriyaki sauce, spring onion, and tobiko.',
         category: 'Fried Sushi Rolls',
         price: '159 NOK'
     },
     {
+        image: rockstarRoll,
         dishName: 'Rock Star Roll(8pcs)',
         description: 'Fried maki with shrimp tempura, avocado, and cucumber, topped with salmon, chili mayo, spring onion, and teriyaki sauce.',
         category: 'Fried Sushi Rolls',
         price: '179 NOK'
     },
     {
+        image: sushiImage,
         dishName: 'Salmon Maki(8pcs)',
         description: 'Salmon, Avacado, Philadelphia, topped with sesame.',
         category: 'Classic Rolls',
         price: '111 NOK'
     },
     {
+        image: sushiImage,
         dishName: 'Tempura Shrimp Maki(8pcs)',
         description: 'Fried Shrimp Tempura, Cucumber, Avacado, sesame seeds.',
         category: 'Classic Rolls',
         price: '111 NOK'
     },
     {
+        image: sushiImage,
         dishName: 'Salmon Duo Maki (8pcs)',
         description: 'Salmon, Avacado, Philadelphia, topped with Salmon.',
         category: 'Classic Rolls',
         price: '149 NOK'
     },
     {
+        image: sushiImage,
         dishName: 'Smoky Tempura Maki(8pcs)',
         description: 'Tempura shrimp maki with smoked salmon, chili mayo, teriyaki sauce, sesame seeds, and spring onion.',
         category: 'Classic Rolls',
         price: '149 NOK'
     },
     {
+        image: sushiImage,
         dishName: 'Los Angeles Maki(8pcs)',
         description: 'Crabstick, avocado, and cucumber maki, chili mayo topping.',
         category: 'Classic Rolls',
         price: '111 NOK'
     },
     {
+        image: tempuraMaki,
         dishName: 'Tempura Futo Maki(8pcs)',
         description: 'Tempura shrimp, avocado, chili mayo wrapped in a maki.',
         category: 'Classic Rolls',
         price: '129 NOK'
     },
     {
+        image: auroraMaki,
         dishName: 'Aurora Maki(8pcs)',
         description: 'Crispy tempura shrimp maki with avocado and cucumber, topped with philadelphia, avocado, chili mayo, teriyaki, sesame, and spring onion.',
         category: 'Specialty Rolls',
         price: '179 NOK'
     },
     {
+        image: rainbowMaki,
         dishName: 'Rainbow Maki(8pcs)',
         description: 'Crabstick, avocado, and cucumber maki, topped with smoked salmon, chili mayo, teriyaki, sesame, and fresh spring onion.',
         category: 'Specialty Rolls',
         price: '169 NOK'
     },
     {
+        image: strawberryMaki,
         dishName: 'Strawberry-Salmon Maki(8pcs)',
         description: 'Salmon, apple, avacado, and philadelphia, topped with a slice of strawberry, teriyaki, and sesame.',
         category: 'Specialty Rolls',
         price: '159 NOK'
     },
     {
+        image: sushiImage,
         dishName: 'Veggie Delight Roll(8pcs)',
         description: 'Crisp cucumber, ocean wakame, creamy avocado, topped with sesame seeds.',
         category: 'Specialty Rolls',
         price: '129 NOK'
     },
     {
+        image: sushiImage,
         dishName: 'Shrimp(6pcs)',
         description: 'Fresh, thinly sliced shrimp served with chef special sauce.',
         category: 'Sashimi',
         price: '99 NOK'
     },
     {
+        image: sushiImage,
         dishName: 'Salmon(6pcs)',
         description: 'Fresh, thinly sliced salmon served with chef special sauce.',
         category: 'Sashimi',
         price: '121 NOK'
     },
     {
+        image: shrimpNigi,
         dishName: 'Shrimp(2pcs)',
         description: 'Succulent Shrimp on a rice ball.',
         category: 'Nigiri',
         price: '41 NOK'
     },
     {
+        image: salmonNigi,
         dishName: 'Salmon(2pcs)',
         description: 'Fresh Salmon on a rice ball.',
         category: 'Nigiri',
         price: '41 NOK'
     },
     {
+        image: smokedSalmon,
         dishName: 'Smoked Salmon(2pcs)',
         description: 'Smoky Salmon on a rice ball dressing with chili mayo,teriyaki sauce, spring onion.',
         category: 'Nigiri',
         price: '49 NOK'
     },
     {
+        image: sushiImage,
         dishName: 'Bukta meny(16pcs)',
         description: 'Salmon Duo Maki (8 pcs.), Salmon Nigiri (6 pcs.), and Shrimp Nigiri (2 pcs.).',
         category: 'Combo',
         price: '249 NOK'
     },
     {
+        image: sushiImage,
         dishName: 'Family meny(32pcs)',
         description: 'Cherry Blossom Roll (6 pcs.), Rock Star Roll (6 pcs.), Tempura Futo Maki (6pcs.), Strawberry-Salmon Maki (8 pcs.), Salmon Nigiri (2 pcs.), smoked salmon nigiri (2pcs) and Shrimp Nigiri (2 pcs.).',
         category: 'Combo',
         price: '499 NOK'
     },
     {
+        image: sushiImage,
         dishName: 'Party meny(76pcs)',
         description: 'Hot Spice Salmon Roll (6pcs.), Rock Star Roll (6pcs.) Cherry Blossom Roll (6pcs.), Smoky Tempura Maki (8 pcs.), Tempura Futo Maki (6 pcs.), Salmon Maki (8 pcs.), Los Angeles Maki (8 pcs.), Salmon Nigiri (10 pcs.), Smoked Salmon Nigiri (5 pcs.), Shrimp Nigiri (5 pcs.) and Sashimi (Chef mix: 8pcs.) served with house sauce.',
         category: 'Combo',
@@ -312,7 +347,11 @@ export default function Menu() {
                                             className="flex flex-col gap-4 font-bold text-xl items-center col-span-1 p-8 rounded-lg bg-primary pb-3"
                                         >
                                             <div className="flex h-56 w-56">
-                                                <Image src={sushiImage} alt='sushi' className='flex size-full object-cover rounded-lg hover:scale-105 transition duration-300' />
+                                                <Image
+                                                    src={menu.image}
+                                                    alt='sushi'
+                                                    className='flex size-full object-cover rounded-lg hover:scale-105 transition duration-300'
+                                                />
                                             </div>
                                             <h1 className='text-xl font-bold text-tertiary'>
                                                 {menu.dishName}
@@ -342,7 +381,7 @@ export default function Menu() {
                                             className="flex flex-col gap-4 font-bold text-xl items-center col-span-1 p-8 rounded-lg bg-primary pb-3"
                                         >
                                             <div className="flex h-56 w-56">
-                                                <Image src={sushiImage} alt='sushi' className='flex size-full object-cover rounded-lg hover:scale-105 transition duration-300' />
+                                                <Image src={menu.image} alt='sushi' className='flex size-full object-cover rounded-lg hover:scale-105 transition duration-300' />
                                             </div>
                                             <h1 className='text-xl font-bold text-tertiary'>
                                                 {menu.dishName}
@@ -372,7 +411,7 @@ export default function Menu() {
                                             className="flex flex-col gap-4 font-bold text-xl items-center col-span-1 p-8 rounded-lg bg-primary pb-3"
                                         >
                                             <div className="flex h-56 w-56">
-                                                <Image src={sushiImage} alt='sushi' className='flex size-full object-cover rounded-lg hover:scale-105 transition duration-300' />
+                                                <Image src={menu.image} alt='sushi' className='flex size-full object-cover rounded-lg hover:scale-105 transition duration-300' />
                                             </div>
                                             <h1 className='text-xl font-bold text-tertiary'>
                                                 {menu.dishName}
@@ -402,7 +441,7 @@ export default function Menu() {
                                             className="flex flex-col gap-4 font-bold text-xl items-center col-span-1 p-8 rounded-lg bg-primary pb-3"
                                         >
                                             <div className="flex h-56 w-56">
-                                                <Image src={sushiImage} alt='sushi' className='flex size-full object-cover rounded-lg hover:scale-105 transition duration-300' />
+                                                <Image src={menu.image} alt='sushi' className='flex size-full object-cover rounded-lg hover:scale-105 transition duration-300' />
                                             </div>
                                             <h1 className='text-xl font-bold text-tertiary'>
                                                 {menu.dishName}
@@ -432,7 +471,7 @@ export default function Menu() {
                                             className="flex flex-col gap-4 font-bold text-xl items-center col-span-1 p-8 rounded-lg bg-primary pb-3"
                                         >
                                             <div className="flex h-56 w-56">
-                                                <Image src={sushiImage} alt='sushi' className='flex size-full object-cover rounded-lg hover:scale-105 transition duration-300' />
+                                                <Image src={menu.image} alt='sushi' className='flex size-full object-cover rounded-lg hover:scale-105 transition duration-300' />
                                             </div>
                                             <h1 className='text-xl font-bold text-tertiary'>
                                                 {menu.dishName}
@@ -462,7 +501,7 @@ export default function Menu() {
                                             className="flex flex-col gap-4 font-bold text-xl items-center col-span-1 p-8 rounded-lg bg-primary pb-3"
                                         >
                                             <div className="flex h-56 w-56">
-                                                <Image src={sushiImage} alt='sushi' className='flex size-full object-cover rounded-lg hover:scale-105 transition duration-300' />
+                                                <Image src={menu.image} alt='sushi' className='flex size-full object-cover rounded-lg hover:scale-105 transition duration-300' />
                                             </div>
                                             <h1 className='text-xl font-bold text-tertiary'>
                                                 {menu.dishName}
@@ -492,7 +531,7 @@ export default function Menu() {
                                             className="flex flex-col gap-4 font-bold text-xl items-center col-span-1 p-8 rounded-lg bg-primary pb-3"
                                         >
                                             <div className="flex h-56 w-56">
-                                                <Image src={sushiImage} alt='sushi' className='flex size-full object-cover rounded-lg hover:scale-105 transition duration-300' />
+                                                <Image src={menu.image} alt='sushi' className='flex size-full object-cover rounded-lg hover:scale-105 transition duration-300' />
                                             </div>
                                             <h1 className='text-xl font-bold text-tertiary'>
                                                 {menu.dishName}

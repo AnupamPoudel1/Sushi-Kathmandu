@@ -7,8 +7,8 @@ export default function About() {
 
     return (
         <main className="overflow-x-hidden w-full no-scrollbar">
-            <div className="h-[95vh] w-full relative bg-gray-100 flex px-28">
-                <div className="flex flex-col w-[60%] h-full p-12 gap-6">
+            <div className="h-max lg:h-[95vh] w-full relative bg-gray-100 flex flex-col-reverse lg:flex-row px-2 lg:px-28">
+                <div className="flex flex-col w-full lg:w-[60%] h-full p-4 lg:p-12 gap-6">
                     <h1 className='text-6xl font-medium font-serif text-tertiary'>
                         About <br /> Us
                     </h1>
@@ -28,8 +28,8 @@ export default function About() {
                         View Menu
                     </button>
                 </div>
-                <div className="flex w-[40%] h-full p-2 justify-center items-center">
-                    <div className="flex flex-col items-center justify-between border-8 border-tertiary w-80 h-[450px] p-14 pt-0 pb-24 font-extrabold text-9xl gap-12 relative">
+                <div className="flex w-full lg:w-[40%] h-full p-2 justify-center items-center mt-24 lg:mt-0">
+                    <div className="flex flex-col items-center justify-between border-8 border-tertiary w-64 h-[450px] p-14 pt-0 pb-24 font-extrabold text-8xl md:text-9xl gap-12 relative">
                         <p className='absolute -top-16 -left-16 text-secondary'>
                             寿
                         </p>

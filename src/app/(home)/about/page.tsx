@@ -1,5 +1,4 @@
 import aboutImage from '@/assets/aboutImage.jpg';
-import anotherSushi from '@/assets/anotherSushi.jpg';
 import Contact from '@/sections/Contact';
 import Image from 'next/image';
 

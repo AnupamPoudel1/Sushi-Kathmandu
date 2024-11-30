@@ -10,12 +10,27 @@ import tempuraMaki from '@/assets/tempuraMaki.jpg';
 import auroraMaki from '@/assets/auroraMaki.jpg';
 import shrimpNigi from '@/assets/shrimp.jpg';
 import salmonNigi from '@/assets/salmon.jpg';
+import wakame from '@/assets/wakame.jpg';
+import springRoll from '@/assets/springRoll.jpg';
+import gyoza from '@/assets/gyoza.jpg';
+import nobashi from '@/assets/nobashi.jpg';
+import salmonMaki from '@/assets/salmonMaki.jpg';
+import tempuraShrimp from '@/assets/tempuraShrimp.jpg';
+import salmonDuo from '@/assets/salmonDuo.jpg';
+import smokyTempura from '@/assets/smokyTempura.jpg';
+import losAnglesMaki from '@/assets/losAnglesMaki.jpg';
+import veggyDelight from '@/assets/veggieDelight.jpg';
+import sashiShrimp from '@/assets/sashiShrimp.jpg';
+import sashiSalmon from '@/assets/sashiSalmon.jpg';
+import buktaMeny from '@/assets/buktaMeny.jpg';
+import familyMeny from '@/assets/familyMeny.jpg';
+import partyMeny from '@/assets/partyMeny.jpg';
 import Contact from '@/sections/Contact';
 import Image from 'next/image';
 
 const deliveryTakeout = [
     {
-        image: sushiImage,
+        image: sashiSalmon,
         dishName: 'Sashimi'
     },
     {
@@ -54,35 +69,35 @@ const popularDishes = [
         dishName: 'Speciality Rolls'
     },
     {
-        image: sushiImage,
+        image: sashiShrimp,
         dishName: 'Sashimi'
     },
 ]
 
 const fullMenu = [
     {
-        image: sushiImage,
+        image: wakame,
         dishName: 'Wakame',
         description: 'Fresh seaweed salad with a touch of sesame, light and refreshing.',
         category: 'Appetizers',
         price: '69 NOK'
     },
     {
-        image: sushiImage,
+        image: springRoll,
         dishName: 'Spring Roll(3pcs)',
         description: 'Crispy vegetable or chicken rolls served with a sweet chili sauce.',
         category: 'Appetizers',
         price: '99 NOK'
     },
     {
-        image: sushiImage,
+        image: gyoza,
         dishName: 'Gyoza(4pcs)',
         description: 'Chicken dumplings served with chef special sauce.',
         category: 'Appetizers',
         price: '99 NOK'
     },
     {
-        image: sushiImage,
+        image: nobashi,
         dishName: 'Nobashi(4pcs)',
         description: 'Crispy shrimp tempura with ponzu sauce, perfect for a crunchy start.',
         category: 'Appetizers',
@@ -110,35 +125,35 @@ const fullMenu = [
         price: '179 NOK'
     },
     {
-        image: sushiImage,
+        image: salmonMaki,
         dishName: 'Salmon Maki(8pcs)',
         description: 'Salmon, Avacado, Philadelphia, topped with sesame.',
         category: 'Classic Rolls',
         price: '111 NOK'
     },
     {
-        image: sushiImage,
+        image: tempuraShrimp,
         dishName: 'Tempura Shrimp Maki(8pcs)',
         description: 'Fried Shrimp Tempura, Cucumber, Avacado, sesame seeds.',
         category: 'Classic Rolls',
         price: '111 NOK'
     },
     {
-        image: sushiImage,
+        image: salmonDuo,
         dishName: 'Salmon Duo Maki (8pcs)',
         description: 'Salmon, Avacado, Philadelphia, topped with Salmon.',
         category: 'Classic Rolls',
         price: '149 NOK'
     },
     {
-        image: sushiImage,
+        image: smokyTempura,
         dishName: 'Smoky Tempura Maki(8pcs)',
         description: 'Tempura shrimp maki with smoked salmon, chili mayo, teriyaki sauce, sesame seeds, and spring onion.',
         category: 'Classic Rolls',
         price: '149 NOK'
     },
     {
-        image: sushiImage,
+        image: losAnglesMaki,
         dishName: 'Los Angeles Maki(8pcs)',
         description: 'Crabstick, avocado, and cucumber maki, chili mayo topping.',
         category: 'Classic Rolls',
@@ -173,21 +188,21 @@ const fullMenu = [
         price: '159 NOK'
     },
     {
-        image: sushiImage,
+        image: veggyDelight,
         dishName: 'Veggie Delight Roll(8pcs)',
         description: 'Crisp cucumber, ocean wakame, creamy avocado, topped with sesame seeds.',
         category: 'Specialty Rolls',
         price: '129 NOK'
     },
     {
-        image: sushiImage,
+        image: sashiShrimp,
         dishName: 'Shrimp(6pcs)',
         description: 'Fresh, thinly sliced shrimp served with chef special sauce.',
         category: 'Sashimi',
         price: '99 NOK'
     },
     {
-        image: sushiImage,
+        image: sashiSalmon,
         dishName: 'Salmon(6pcs)',
         description: 'Fresh, thinly sliced salmon served with chef special sauce.',
         category: 'Sashimi',
@@ -215,21 +230,21 @@ const fullMenu = [
         price: '49 NOK'
     },
     {
-        image: sushiImage,
+        image: buktaMeny,
         dishName: 'Bukta meny(16pcs)',
         description: 'Salmon Duo Maki (8 pcs.), Salmon Nigiri (6 pcs.), and Shrimp Nigiri (2 pcs.).',
         category: 'Combo',
         price: '249 NOK'
     },
     {
-        image: sushiImage,
+        image: familyMeny,
         dishName: 'Family meny(32pcs)',
         description: 'Cherry Blossom Roll (6 pcs.), Rock Star Roll (6 pcs.), Tempura Futo Maki (6pcs.), Strawberry-Salmon Maki (8 pcs.), Salmon Nigiri (2 pcs.), smoked salmon nigiri (2pcs) and Shrimp Nigiri (2 pcs.).',
         category: 'Combo',
         price: '499 NOK'
     },
     {
-        image: sushiImage,
+        image: partyMeny,
         dishName: 'Party meny(76pcs)',
         description: 'Hot Spice Salmon Roll (6pcs.), Rock Star Roll (6pcs.) Cherry Blossom Roll (6pcs.), Smoky Tempura Maki (8 pcs.), Tempura Futo Maki (6 pcs.), Salmon Maki (8 pcs.), Los Angeles Maki (8 pcs.), Salmon Nigiri (10 pcs.), Smoked Salmon Nigiri (5 pcs.), Shrimp Nigiri (5 pcs.) and Sashimi (Chef mix: 8pcs.) served with house sauce.',
         category: 'Combo',

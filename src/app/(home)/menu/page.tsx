@@ -1,4 +1,3 @@
-import sushiImage from '@/assets/sushiImage.jpg';
 import sushiPlate from '@/assets/sushiPlate.png';
 import hotSpice from '@/assets/hotSpice.jpg';
 import smokedSalmon from '@/assets/smokedSalmon.jpg';

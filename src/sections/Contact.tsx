@@ -12,13 +12,13 @@ export default function Contact() {
                 />
                 <div className="absolute uppercase flex flex-col gap-6 p-4 backdrop-blur rounded-xl">
                     <p className='font-semibold font-serif text-2xl text-primary'>
-                        Dine In
+                        Order Now
                     </p>
                     <h1 className='text-6xl font-bold text-primary'>
-                        Call To <br /> Reserve
+                        Call To <br /> Order
                     </h1>
                     <a href="tel:4748911168" className='py-3 px-6 border-2 border-primary text-xl font-medium text-primary w-max hover:bg-primary hover:text-secondary transition duration-300'>
-                        Book Now
+                        Call Now
                     </a>
                 </div>
             </div>

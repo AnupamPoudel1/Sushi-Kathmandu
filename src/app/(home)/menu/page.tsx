@@ -34,8 +34,8 @@ const deliveryTakeout = [
         dishName: 'Sashimi'
     },
     {
-        image: sushiImage,
-        dishName: 'Noodles'
+        image: nobashi,
+        dishName: 'Nobashi'
     },
     {
         image: hotSpice,
@@ -49,8 +49,8 @@ const deliveryTakeout = [
 
 const popularDishes = [
     {
-        image: sushiImage,
-        dishName: 'Temaki'
+        image: wakame,
+        dishName: 'Wakame'
     },
     {
         image: shrimpNigi,

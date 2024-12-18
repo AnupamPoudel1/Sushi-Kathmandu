@@ -15,14 +15,14 @@ export default function Home() {
           alt='background image'
           className='w-full h-full object-cover'
         />
-        <div className="absolute border-[10px] md:border-[15px] lg:border-[20px] border-primary top-12 left-5 lg:top-20 lg:left-32 flex md:flex-col px-10 py-6 md:py-14 md:px-8 text-primary font-extrabold text-5xl md:text-8xl lg:text-9xl gap-6">
+        {/* <div className="absolute border-[10px] md:border-[15px] lg:border-[20px] border-primary top-12 left-5 lg:top-20 lg:left-32 flex md:flex-col px-10 py-6 md:py-14 md:px-8 text-primary font-extrabold text-5xl md:text-8xl lg:text-9xl gap-6">
           <p>
             寿
           </p>
           <p>
             司
           </p>
-        </div>
+        </div> */}
         <div className="absolute top-32 left-0 md:top-52 md:left-[60%] lg:top-28 lg:left-1/2 md:-translate-x-1/2 flex flex-col py-14 px-8 gap-6">
           <p className='uppercase font-serif font-extrabold text-lg md:text-2xl text-primary bg-secondary w-max p-2'>
             Welcome To
